@@ -1,0 +1,39 @@
+<div class="min-h-screen p-8 flex flex-col items-center gap-10 bg-slate-50">
+  <div class="text-center">
+    <h1 class="text-4xl font-bold text-slate-900">Angular Performance Benchmark Suite</h1>
+    <p class="text-slate-600 text-sm mt-1">
+      Compare JSON processing & API load performance same as React benchmark.
+    </p>
+  </div>
+
+  <!-- 🔥 Red Navigation Buttons -->
+  <div class="flex gap-4">
+    <button
+      (click)="page = 'json'"
+      class="px-5 py-2 rounded-xl font-medium transition"
+      [ngClass]="
+        page === 'json'
+          ? 'bg-red-600 text-white'
+          : 'bg-white border border-slate-300 hover:bg-slate-100 text-slate-800'
+      "
+    >
+      JSON Benchmark
+    </button>
+
+    <button
+      (click)="page = 'api'"
+      class="px-5 py-2 rounded-xl font-medium transition"
+      [ngClass]="
+        page === 'api'
+          ? 'bg-red-600 text-white'
+          : 'bg-white border border-slate-300 hover:bg-slate-100 text-slate-800'
+      "
+    >
+      API Load Test
+    </button>
+  </div>
+
+  <!-- COMPONENT ROUTING -->
+  <app-json-benchmark *ngIf="page === 'json'"></app-json-benchmark>
+  <app-api-benchmark *ngIf="page === 'api'"></app-api-benchmark>
+</div>
