@@ -12,11 +12,11 @@ function Home() {
       icon: "/angular.png",
       url: "http://localhost:4200",
     },
-    { name: "Vue Benchmark", icon: "/vue.png", url: "http://localhost:5175" },
+    { name: "Vue Benchmark", icon: "/vue.png", url: "http://localhost:5176" },
     {
       name: "Svelte Benchmark",
       icon: "/svelte.png",
-      url: "http://localhost:5176",
+      url: "http://localhost:5175",
     },
   ];
 
