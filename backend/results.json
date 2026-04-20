@@ -1,61 +1,7 @@
 {
   "results": [
     {
-      "id": "json-svelte-1776705192554",
-      "framework": "svelte",
-      "category": "json",
-      "scenario": "json-bulk",
-      "config": {
-        "datasetSize": 500000
-      },
-      "metrics": {
-        "jsonCount": 500000,
-        "parseTimeMs": 518,
-        "traversalTimeMs": 171.4,
-        "renderTimeMs": 4,
-        "fps": 57.5,
-        "memoryUsedMB": 94.02
-      },
-      "timestamp": "2026-04-20T17:13:12.747Z"
-    },
-    {
-      "id": "json-vue-1776705204340",
-      "framework": "vue",
-      "category": "json",
-      "scenario": "json-bulk",
-      "config": {
-        "datasetSize": 500000
-      },
-      "metrics": {
-        "jsonCount": 500000,
-        "parseTimeMs": 462.4,
-        "traversalTimeMs": 194,
-        "renderTimeMs": 4,
-        "fps": 56.9,
-        "memoryUsedMB": 94.02
-      },
-      "timestamp": "2026-04-20T17:13:24.357Z"
-    },
-    {
-      "id": "json-angular-1776705212355",
-      "framework": "angular",
-      "category": "json",
-      "scenario": "json-bulk",
-      "config": {
-        "datasetSize": 500
-      },
-      "metrics": {
-        "jsonCount": 500,
-        "parseTimeMs": 1,
-        "traversalTimeMs": 0.2,
-        "renderTimeMs": 0.7,
-        "fps": 57.3,
-        "memoryUsedMB": 0.09
-      },
-      "timestamp": "2026-04-20T17:13:32.367Z"
-    },
-    {
-      "id": "json-react-1776705226868",
+      "id": "json-react-1776706756877",
       "framework": "react",
       "category": "json",
       "scenario": "json-bulk",
@@ -64,67 +10,16 @@
       },
       "metrics": {
         "jsonCount": 500000,
-        "parseTimeMs": 648.2,
-        "traversalTimeMs": 13.1,
-        "renderTimeMs": 5.1,
-        "fps": 58.3,
+        "parseTimeMs": 780.3,
+        "traversalTimeMs": 61.4,
+        "renderTimeMs": 10.3,
+        "fps": 51.7,
         "memoryUsedMB": 112.78
       },
-      "timestamp": "2026-04-20T17:13:46.881Z"
+      "timestamp": "2026-04-20T17:39:16.974Z"
     },
     {
-      "id": "api-svelte-1776705237291",
-      "framework": "svelte",
-      "category": "api",
-      "scenario": "api-load",
-      "config": {
-        "requestCount": 20000
-      },
-      "metrics": {
-        "payloadSize": 20000,
-        "latencyMs": 358.9,
-        "throughput": 2.79,
-        "responseKB": 2405.48,
-        "speedMBps": 6.55
-      },
-      "timestamp": "2026-04-20T17:13:57.299Z"
-    },
-    {
-      "id": "api-vue-1776705246751",
-      "framework": "vue",
-      "category": "api",
-      "scenario": "api-load",
-      "config": {
-        "requestCount": 20000
-      },
-      "metrics": {
-        "payloadSize": 20000,
-        "latencyMs": 189,
-        "throughput": 5.29,
-        "responseKB": 2405.45,
-        "speedMBps": 12.43
-      },
-      "timestamp": "2026-04-20T17:14:06.758Z"
-    },
-    {
-      "id": "api-angular-1776705257135",
-      "framework": "angular",
-      "category": "api",
-      "scenario": "api-load",
-      "config": {
-        "requestCount": 20000
-      },
-      "metrics": {
-        "payloadSize": 20000,
-        "latencyMs": 307.9,
-        "throughput": 3.25,
-        "responseKB": 2405.53,
-        "speedMBps": 7.63
-      },
-      "timestamp": "2026-04-20T17:14:17.152Z"
-    },
-    {
-      "id": "api-react-1776705266635",
+      "id": "api-react-1776706778376",
       "framework": "react",
       "category": "api",
       "scenario": "api-load",
@@ -133,12 +28,117 @@
       },
       "metrics": {
         "payloadSize": 20000,
-        "latencyMs": 297.7,
-        "throughput": 3.36,
-        "responseKB": 2405.36,
-        "speedMBps": 7.89
+        "latencyMs": 346.1,
+        "throughput": 2.89,
+        "responseKB": 2405.44,
+        "speedMBps": 6.79
       },
-      "timestamp": "2026-04-20T17:14:26.642Z"
+      "timestamp": "2026-04-20T17:39:38.396Z"
+    },
+    {
+      "id": "json-angular-1776706790849",
+      "framework": "angular",
+      "category": "json",
+      "scenario": "json-bulk",
+      "config": {
+        "datasetSize": 500000
+      },
+      "metrics": {
+        "jsonCount": 500000,
+        "parseTimeMs": 595.1,
+        "traversalTimeMs": 305,
+        "renderTimeMs": 4.5,
+        "fps": 49.3,
+        "memoryUsedMB": 94.02
+      },
+      "timestamp": "2026-04-20T17:39:50.879Z"
+    },
+    {
+      "id": "api-angular-1776706796047",
+      "framework": "angular",
+      "category": "api",
+      "scenario": "api-load",
+      "config": {
+        "requestCount": 20000
+      },
+      "metrics": {
+        "payloadSize": 20000,
+        "latencyMs": 396.6,
+        "throughput": 2.52,
+        "responseKB": 2405.34,
+        "speedMBps": 5.92
+      },
+      "timestamp": "2026-04-20T17:39:56.077Z"
+    },
+    {
+      "id": "json-vue-1776706805013",
+      "framework": "vue",
+      "category": "json",
+      "scenario": "json-bulk",
+      "config": {
+        "datasetSize": 500000
+      },
+      "metrics": {
+        "jsonCount": 500000,
+        "parseTimeMs": 597.2,
+        "traversalTimeMs": 166.6,
+        "renderTimeMs": 4,
+        "fps": 55.6,
+        "memoryUsedMB": 94.02
+      },
+      "timestamp": "2026-04-20T17:40:05.052Z"
+    },
+    {
+      "id": "api-vue-1776706810691",
+      "framework": "vue",
+      "category": "api",
+      "scenario": "api-load",
+      "config": {
+        "requestCount": 20000
+      },
+      "metrics": {
+        "payloadSize": 20000,
+        "latencyMs": 324.3,
+        "throughput": 3.08,
+        "responseKB": 2405.34,
+        "speedMBps": 7.24
+      },
+      "timestamp": "2026-04-20T17:40:10.720Z"
+    },
+    {
+      "id": "json-svelte-1776706821177",
+      "framework": "svelte",
+      "category": "json",
+      "scenario": "json-bulk",
+      "config": {
+        "datasetSize": 500000
+      },
+      "metrics": {
+        "jsonCount": 500000,
+        "parseTimeMs": 599.4,
+        "traversalTimeMs": 283.9,
+        "renderTimeMs": 4,
+        "fps": 55,
+        "memoryUsedMB": 94.02
+      },
+      "timestamp": "2026-04-20T17:40:21.212Z"
+    },
+    {
+      "id": "api-svelte-1776706827819",
+      "framework": "svelte",
+      "category": "api",
+      "scenario": "api-load",
+      "config": {
+        "requestCount": 20000
+      },
+      "metrics": {
+        "payloadSize": 20000,
+        "latencyMs": 267.9,
+        "throughput": 3.73,
+        "responseKB": 2405.54,
+        "speedMBps": 8.77
+      },
+      "timestamp": "2026-04-20T17:40:27.839Z"
     }
   ]
 }
