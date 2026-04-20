@@ -59,7 +59,7 @@ Ensure the following are installed on your system before proceeding:
 
 ### Required
 
-- **Node.js** v18 or higher — [Download](https://nodejs.org/)
+- **Node.js** v22 or higher — [Download](https://nodejs.org/)
 - **npm** or **yarn** — Comes bundled with Node.js
 
 ### Verify Installation
